@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		66A16594254B9A240081AE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A16593254B9A240081AE70 /* AppDelegate.swift */; };
 		66A16596254B9A240081AE70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A16595254B9A240081AE70 /* SceneDelegate.swift */; };
-		66A16598254B9A240081AE70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A16597254B9A240081AE70 /* ViewController.swift */; };
 		66A1659B254B9A240081AE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A16599254B9A240081AE70 /* Main.storyboard */; };
 		66A1659D254B9A270081AE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A1659C254B9A270081AE70 /* Assets.xcassets */; };
 		66A165A0254B9A270081AE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A1659E254B9A270081AE70 /* LaunchScreen.storyboard */; };
+		66A165AE254B9BE90081AE70 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A165AD254B9BE90081AE70 /* MasterVC.swift */; };
+		66A165B1254B9C480081AE70 /* MasterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A165B0254B9C480081AE70 /* MasterCell.swift */; };
+		66A165B5254B9D130081AE70 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A165B4254B9D130081AE70 /* MoviesModel.swift */; };
+		66A165B8254BA0C00081AE70 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A165B7254BA0C00081AE70 /* MovieViewModel.swift */; };
+		66A165C3254BD6740081AE70 /* DetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A165C2254BD6740081AE70 /* DetailsVc.swift */; };
+		ADCA480E7B53E5394D04E94A /* Pods_PomacTaskAhmedEssam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058B3925ED1BB2351F5F2658 /* Pods_PomacTaskAhmedEssam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		058B3925ED1BB2351F5F2658 /* Pods_PomacTaskAhmedEssam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PomacTaskAhmedEssam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A16590254B9A240081AE70 /* PomacTaskAhmedEssam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomacTaskAhmedEssam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A16593254B9A240081AE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A16595254B9A240081AE70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66A16597254B9A240081AE70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66A1659A254B9A240081AE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66A1659C254B9A270081AE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A1659F254B9A270081AE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66A165A1254B9A270081AE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A165AD254B9BE90081AE70 /* MasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
+		66A165B0254B9C480081AE70 /* MasterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCell.swift; sourceTree = "<group>"; };
+		66A165B4254B9D130081AE70 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		66A165B7254BA0C00081AE70 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		66A165C2254BD6740081AE70 /* DetailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVc.swift; sourceTree = "<group>"; };
+		86D4BBBB18BEC66D97785A5C /* Pods-PomacTaskAhmedEssam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomacTaskAhmedEssam.debug.xcconfig"; path = "Target Support Files/Pods-PomacTaskAhmedEssam/Pods-PomacTaskAhmedEssam.debug.xcconfig"; sourceTree = "<group>"; };
+		A3D12C73C285980F30618A1D /* Pods-PomacTaskAhmedEssam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomacTaskAhmedEssam.release.xcconfig"; path = "Target Support Files/Pods-PomacTaskAhmedEssam/Pods-PomacTaskAhmedEssam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADCA480E7B53E5394D04E94A /* Pods_PomacTaskAhmedEssam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34F5015902D8B14944AE7F81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86D4BBBB18BEC66D97785A5C /* Pods-PomacTaskAhmedEssam.debug.xcconfig */,
+				A3D12C73C285980F30618A1D /* Pods-PomacTaskAhmedEssam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		66A16587254B9A240081AE70 = {
 			isa = PBXGroup;
 			children = (
 				66A16592254B9A240081AE70 /* PomacTaskAhmedEssam */,
 				66A16591254B9A240081AE70 /* Products */,
+				34F5015902D8B14944AE7F81 /* Pods */,
+				825EE3714E8B53C5751BCED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,49 @@
 			children = (
 				66A16593254B9A240081AE70 /* AppDelegate.swift */,
 				66A16595254B9A240081AE70 /* SceneDelegate.swift */,
-				66A16597254B9A240081AE70 /* ViewController.swift */,
-				66A16599254B9A240081AE70 /* Main.storyboard */,
+				66A165AB254B9B8F0081AE70 /* Model */,
+				66A165AA254B9B8C0081AE70 /* ViewModel */,
+				66A165A9254B9B890081AE70 /* ViewController */,
 				66A1659C254B9A270081AE70 /* Assets.xcassets */,
 				66A1659E254B9A270081AE70 /* LaunchScreen.storyboard */,
 				66A165A1254B9A270081AE70 /* Info.plist */,
 			);
 			path = PomacTaskAhmedEssam;
+			sourceTree = "<group>";
+		};
+		66A165A9254B9B890081AE70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66A165AD254B9BE90081AE70 /* MasterVC.swift */,
+				66A165B0254B9C480081AE70 /* MasterCell.swift */,
+				66A165C2254BD6740081AE70 /* DetailsVc.swift */,
+				66A16599254B9A240081AE70 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		66A165AA254B9B8C0081AE70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				66A165B7254BA0C00081AE70 /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66A165AB254B9B8F0081AE70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66A165B4254B9D130081AE70 /* MoviesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		825EE3714E8B53C5751BCED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				058B3925ED1BB2351F5F2658 /* Pods_PomacTaskAhmedEssam.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66A165A4254B9A270081AE70 /* Build configuration list for PBXNativeTarget "PomacTaskAhmedEssam" */;
 			buildPhases = (
+				2FA45C9C8FE9E5956143104C /* [CP] Check Pods Manifest.lock */,
 				66A1658C254B9A240081AE70 /* Sources */,
 				66A1658D254B9A240081AE70 /* Frameworks */,
 				66A1658E254B9A240081AE70 /* Resources */,
+				1F97F163135B4D902F03F0C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +194,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F97F163135B4D902F03F0C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomacTaskAhmedEssam/Pods-PomacTaskAhmedEssam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PomacTaskAhmedEssam/Pods-PomacTaskAhmedEssam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PomacTaskAhmedEssam/Pods-PomacTaskAhmedEssam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA45C9C8FE9E5956143104C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PomacTaskAhmedEssam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66A1658C254B9A240081AE70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A16598254B9A240081AE70 /* ViewController.swift in Sources */,
+				66A165AE254B9BE90081AE70 /* MasterVC.swift in Sources */,
+				66A165C3254BD6740081AE70 /* DetailsVc.swift in Sources */,
 				66A16594254B9A240081AE70 /* AppDelegate.swift in Sources */,
+				66A165B5254B9D130081AE70 /* MoviesModel.swift in Sources */,
 				66A16596254B9A240081AE70 /* SceneDelegate.swift in Sources */,
+				66A165B1254B9C480081AE70 /* MasterCell.swift in Sources */,
+				66A165B8254BA0C00081AE70 /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +391,7 @@
 		};
 		66A165A5254B9A270081AE70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D4BBBB18BEC66D97785A5C /* Pods-PomacTaskAhmedEssam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +411,7 @@
 		};
 		66A165A6254B9A270081AE70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D12C73C285980F30618A1D /* Pods-PomacTaskAhmedEssam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
